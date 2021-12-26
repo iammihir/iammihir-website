@@ -1,0 +1,252 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+    body{
+        /* background-image: url(back2.jpg); */
+        background-image: url(video.mp4);
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Montserrat', sans-serif;
+        padding-bottom: 60px; 
+    }
+    #background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    .nav{
+        width: 100%;
+        height: 10%;
+        background-color: #3339;
+        line-height: 550%;    
+    }
+    .nav .ul{
+        float: none;
+        margin: auto;
+    }
+    .nav .ul .li{
+        list-style-type: none;
+        display: inline-block;
+        margin: auto;
+        text-align: center;
+        width: 49%;
+    }
+    .nav .ul .li:hover{
+        background-color: #BBBBBB;
+        transition: 0.5s all;        
+    }
+    .nav .ul .li a{
+        color: #FFF;
+        text-decoration: none;
+        padding: 30px;
+        font-size: 1.5vh;
+    }
+    .nav .ul .li a:hover{
+        color: #333;
+    }
+
+    img{
+    width: 60%;
+    border-radius: 60%;
+    display: block;
+    margin: 10% auto 0%;
+    }
+   
+    .para{
+        text-align: center;
+        font-size: 2.8vh;
+        background-color: #3339;
+        color: ivory;
+        margin: 20px auto 0px;
+    }
+    .para4{
+        text-align: center;
+        font-size: 2.8vh;
+        background-color: #3339;
+        color: ivory;
+        margin: 0px auto 20px;
+    }
+
+    .para1{
+        text-align: center;
+        font-size: 1.65vh;
+        margin: auto;
+        background-color: #3339;
+        line-height: 4vh;
+        color: ivory;
+    }
+    .para2{
+        text-align: center;
+        font-size: 1.75vh;
+        margin: auto;
+        background-color: #3339;
+        line-height: 4vh;
+        color: ivory;
+    }
+    .para3{
+        text-align: center;
+        font-size: 1.65vh;
+        margin: auto;
+        background-color: #3339;
+        line-height: 4vh;
+        color: ivory;
+    }
+    footer{
+        background-color: #3339;
+        position: relative;
+        padding: 0px;
+        bottom: 0;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+    }
+    footer .ul2{
+        text-align: center;
+    }
+    footer li{
+        list-style-type: none;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+        width: 19%;
+    }
+    footer li:hover{
+        background-color: #BBBBBB;
+        transition: 0.5s all;    
+    }
+    footer a{
+        text-decoration: none;
+        color: #FFF;
+        font-size: 1.8vh;
+        display: block;
+        width: 200px;
+        height: 100px;
+        line-height: 100px;
+        margin: auto;
+    }
+    footer a:hover{
+        color: #333;
+    }
+
+@media only screen and (min-width: 1025px){
+body{
+    background-image: url(back2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 60px;  
+}
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color: #3339;
+    line-height: 60px;    
+}
+.nav .ul{
+    float: right;
+    margin-right: 30px;
+}
+.nav .ul .li{
+    list-style-type: none;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: auto;
+}
+.nav .ul .li:hover{
+    background-color: #BBBBBB;
+    transition: 0.5s all;        
+}
+.nav .ul .li a{
+    color: #FFF;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 2vh;
+}
+.nav .ul .li a:hover{
+    color: #333;
+}
+
+img{
+    width: 300px;
+    border-radius: 150px;
+    display: block;
+    margin: 30px auto 5px;
+}
+
+.para{
+    text-align: center;
+    font-size: 5vh;
+    background-color: none;
+    color: ivory;
+    margin: auto
+}
+.para4{
+    text-align: center;
+    font-size: 5vh;
+    color: ivory;
+    margin: auto;
+}
+.para1{
+    text-align: center;
+    font-size: 2.5vh;
+    margin: auto;
+    color: ivory;
+}
+.para2{
+    text-align: center;
+    font-size: 2.7vh;
+    margin: auto;
+    color: ivory;
+}
+.para3{
+    text-align: center;
+    font-size: 3vh;
+    margin: auto;
+    color: ivory;
+}
+footer{
+    background-color: #3339;
+    position: relative;
+    padding: 0px;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+footer .ul2{
+    text-align: center;
+}
+footer li{
+    list-style-type: none;
+    display: inline-block;
+    margin: auto;
+    width: auto;
+}
+footer li:hover{
+    background-color: #BBBBBB;
+    transition: 0.5s all;    
+}
+footer a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 3vh;
+    display: block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+}
+footer a:hover{
+    color: #333;
+} 
+}
