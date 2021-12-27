@@ -61,18 +61,24 @@
     display: block;
     margin: 10% auto 0%;
     }
-   
+    
+    /* .words{
+        background-color: rgb(145,69,182,0.5);
+    } */
+    #bgsync{
+        background-color: rgb(60,11,107,0.5)
+    }
     .para{
         text-align: center;
         font-size: 2.8vh;
-        background-color: #3339;
+        /* background-color: #3339; */
         color: ivory;
         margin: 20px auto 0px;
     }
     .para4{
         text-align: center;
         font-size: 2.8vh;
-        background-color: #3339;
+        /* background-color: #3339; */
         color: ivory;
         margin: 0px auto 20px;
     }
@@ -81,7 +87,7 @@
         text-align: center;
         font-size: 1.65vh;
         margin: auto;
-        background-color: #3339;
+        /* background-color: #3339; */
         line-height: 4vh;
         color: ivory;
     }
@@ -89,7 +95,7 @@
         text-align: center;
         font-size: 1.75vh;
         margin: auto;
-        background-color: #3339;
+        /* background-color: #3339; */
         line-height: 4vh;
         color: ivory;
     }
@@ -97,7 +103,7 @@
         text-align: center;
         font-size: 1.65vh;
         margin: auto;
-        background-color: #3339;
+        /* background-color: #3339; */
         line-height: 4vh;
         color: ivory;
     }
