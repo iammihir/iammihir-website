@@ -62,11 +62,27 @@
     margin: 10% auto 0%;
     }
     
-    /* .words{
-        background-color: rgb(145,69,182,0.5);
-    } */
+    #div1{
+        /* background-color: pink; */
+        width: 50%;
+        float: left;
+        display: inline-block;
+    }
+
+    #div3{
+        background-color: violet;
+        width: 50%;
+        float: right;
+        display: inline-block;
+    }
+
+    #cont1{
+        background-color: blue;
+        height: 900px;
+    }
+
     #bgsync{
-        background-color: rgb(60,11,107,0.5)
+        background-color: rgb(0,128,128,0.5);
     }
     .para{
         text-align: center;
