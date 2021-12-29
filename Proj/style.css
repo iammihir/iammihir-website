@@ -61,18 +61,40 @@
     display: block;
     margin: 10% auto 0%;
     }
-   
+    
+    #div1{
+        /* background-color: pink; */
+        width: 50%;
+        float: left;
+        display: inline-block;
+    }
+
+    #div3{
+        background-color: violet;
+        width: 50%;
+        float: right;
+        display: inline-block;
+    }
+
+    #cont1{
+        background-color: blue;
+        height: 900px;
+    }
+
+    #bgsync{
+        background-color: rgb(0,128,128,0.5);
+    }
     .para{
         text-align: center;
         font-size: 2.8vh;
-        background-color: #3339;
+        /* background-color: #3339; */
         color: ivory;
         margin: 20px auto 0px;
     }
     .para4{
         text-align: center;
         font-size: 2.8vh;
-        background-color: #3339;
+        /* background-color: #3339; */
         color: ivory;
         margin: 0px auto 20px;
     }
@@ -81,7 +103,7 @@
         text-align: center;
         font-size: 1.65vh;
         margin: auto;
-        background-color: #3339;
+        /* background-color: #3339; */
         line-height: 4vh;
         color: ivory;
     }
@@ -89,7 +111,7 @@
         text-align: center;
         font-size: 1.75vh;
         margin: auto;
-        background-color: #3339;
+        /* background-color: #3339; */
         line-height: 4vh;
         color: ivory;
     }
@@ -97,7 +119,7 @@
         text-align: center;
         font-size: 1.65vh;
         margin: auto;
-        background-color: #3339;
+        /* background-color: #3339; */
         line-height: 4vh;
         color: ivory;
     }
